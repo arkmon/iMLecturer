@@ -1,7 +1,9 @@
+
+<body>
 <div id="wrap">
     <div class="container">
 	<div class="page-header">
-      <h1>iMLecturer</h1>
+      <h1>iMLecturerr</h1>
       </div>
       <p class="lead"><form action="" method="GET">
                 <div>

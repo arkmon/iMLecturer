@@ -4,15 +4,14 @@
     <title>Human Resources</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <script language="javascript" src="/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.js"></script>
      <style>
       body {
         padding-top: 60px; 
-      }
-      #wrap {
+	  }
+	  #wrap {
         min-height: 100%;
         height: auto !important;
         height: 100%;
@@ -32,18 +31,18 @@
       /* Lastly, apply responsive CSS fixes as necessary */
       @media (max-width: 767px) {
         #footer {
-    position: absolute;
-    bottom: 0;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 320px;
+	position: absolute;
+	bottom: 0;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 320px;
         }
       }
       
      </style>
-     
+     <link href="css/bootstrap-responsive.css" rel="stylesheet">
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -56,4 +55,3 @@
                     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="ico/favicon.png">
   </head>
-  <body>

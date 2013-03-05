@@ -19,7 +19,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('search_form');
+		$this->load->view('sign');
 	}
 }
 
