@@ -3,10 +3,10 @@
 <head>
     <title>Human Resources</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/iMLecturer/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.js"></script>
+  <script src="/iMLecturer/js/bootstrap.min.js"></script>
+  <script src="iMLecturer/js/jquery.js"></script>
      <style>
       body {
         padding-top: 60px; 
@@ -42,7 +42,7 @@
       }
       
      </style>
-     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -55,3 +55,27 @@
                     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="ico/favicon.png">
   </head>
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.php">Human Resources</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.php">Home</a></li>
+              <li><a href="/iMLecturer/index.php/about">About</a></li>
+              <li><a href="#help">Help</a></li>
+              <li><a href="#Login">Login</a></li>
+            </ul>
+
+          </div><!--/.nav-collapse -->
+
+        </div>
+        
+      </div>
+  </div>

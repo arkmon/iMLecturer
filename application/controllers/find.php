@@ -21,9 +21,9 @@ public function index()
        $name =$this->input->get('firstname');
        $lastname =$this->input->get('lastname');
        $department =$this->input->get('dept');
-       $jobtitle =$this->input->get('jobtitle');
+     
        
-       $name = $this->search_model->getsearch($name,$lastname,$department,$jobtitle);
+       $name = $this->search_model->getsearch($name,$lastname,$department);
        echo json_encode($name);
 } 
  

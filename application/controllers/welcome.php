@@ -19,8 +19,20 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('sign');
+		$this->load->helper('url');
+		//$this->load->view('sign');
+		$this->load->view('header');
+      //  $this->load->view('navbar');
+        $this->load->view('content');
+        $this->load->view('footer');
 	}
+	public function about()
+	{
+		$this->load->helper('url');
+		$this->load->view('header');
+      //  $this->load->view('navbar');
+        $this->load->view('about');
+        $this->load->view('footer');	}
 }
 
 /* End of file welcome.php */

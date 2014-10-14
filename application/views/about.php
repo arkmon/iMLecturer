@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<!-- <html>
 <head>
     <title>Human Resources</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style>
       body {
         padding-top: 60px; 
@@ -63,10 +63,10 @@
               <li><a href="#help">Help</a></li>
               <li><a href="#Login">Login</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div><!--/.nav-collapse 
         </div>
       </div>
-  </div>
+  </div> -->
 <div id="wrap">
     <div class="container">
 	<div class="page-header">
@@ -77,7 +77,7 @@
     </div>
      <div id="push"></div>
      </div>
-      </div>
+   <!--   </div>
     <div id="footer">
         <div class="container">
             <p class="muted credit">&copy; Arkadiusz Dowejko</p>
@@ -101,4 +101,4 @@
   <script src="js/bootstrap-carousel.js"></script>
   <script src="js/bootstrap-typeahead.js"></script>
 </body>
-</html>
+</html> -->
